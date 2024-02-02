@@ -8,7 +8,7 @@ library(fs)
 
 # Define UI
 ui <- fluidPage(
-  titlePanel("Directory and Subdirectory Creator for Research Structure"),
+  titlePanel("Directory and Subdirectory Creator"),
   mainPanel(
     textOutput("selectedDir"),
     actionButton("choose_dir", "Choose Directory")
