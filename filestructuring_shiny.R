@@ -25,7 +25,7 @@ server <- function(input, output, session) {
       # Define the file structure with subfolders, change to suit needs.
       folders_to_create <- list(
         "Data" = c("Raw", "Processed", "Complete"),
-        "Scripts" = c("R" = c("Analysis", "Preprocessing", "GIS"), "Py" = c("Analysis", "Preprocessing", "GIS")),
+        "Scripts" = c("R" = c("Analysis", "Preprocessing", "GIS"), "Py" = c("Analysis", "Preprocessing", "GIS"))),
         "Results" = c("Figures", "Tables", "Statistics"),
         "Documentation" = c("Drafts", "Supervisor Feedback", "For Submission")
       )
