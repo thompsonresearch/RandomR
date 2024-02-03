@@ -28,6 +28,9 @@ def merge_shapefiles():
     shapefiles, choice = select_shapefiles()
 
     if shapefiles and choice:
+        # Informing the user that the shapefiles are being prepared for merging
+        print("Combining shapes... Please specify the location and filename for the merged shapefile when prompted.")
+
         # Output location and name for the merged shapefile
         output_shapefile = filedialog.asksaveasfilename(defaultextension=".shp", filetypes=[("Shapefiles", "*.shp")], title="Save the Merged Shapefile As")
         
